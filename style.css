@@ -27,6 +27,11 @@
     border: none;
     background-color: #fcf6d8;
 }
+.plain-text{
+    font-size: 18px;
+    font-weight: 300;
+    margin: 10px 0 0 0;
+}
 /* the nav section start */
 .nav-section{
     justify-content: space-between;
@@ -59,7 +64,7 @@ ul li:hover{
     justify-content: center;
 }
 /* the start of card section */
-.season-collections{
+.cards-section{
     width: 80%;
     display: flex;
     flex-direction: column;
