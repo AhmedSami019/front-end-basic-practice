@@ -6,10 +6,28 @@
   font-optical-sizing: auto;
   font-weight: 500
 }
-/* the nav section start */
+/* global classes */
 .flex{
     display: flex;
 }
+.text-header{
+    text-align: center;
+    font-weight: 700;
+    font-size: 60px;
+}
+.card-title{
+    font-size: 30px;
+    margin: 10px 0px;
+    text-align: center;
+}
+.card-btn{
+    font-size: 20px;
+    padding: 10px 25px;
+    border-radius: 50px;
+    border: none;
+    background-color: #fcf6d8;
+}
+/* the nav section start */
 .nav-section{
     justify-content: space-between;
     align-items: center;
@@ -39,4 +57,22 @@ ul li:hover{
     width: 95%;
     display: flex;
     justify-content: center;
+}
+/* the start of card section */
+.season-collections{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.card-area{
+    justify-content: space-around;
+    align-items: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
 }
