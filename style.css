@@ -1,0 +1,42 @@
+/* this is the font which I use */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.inter-font{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500
+}
+/* the nav section start */
+.flex{
+    display: flex;
+}
+.nav-section{
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0px 0px 30px;
+    width: 95%;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.nav-options{
+    gap: 50px;
+}
+ul li{
+    list-style: none;
+    font-size: 18px;
+    padding: 5px;
+}
+ul li:hover{
+    border-bottom: 2px solid black;
+}
+/* the end of nav section and start of banner section */
+.banner{
+    display: flex;
+    justify-content: center;
+
+}
+.banner img{
+    width: 95%;
+    display: flex;
+    justify-content: center;
+}
